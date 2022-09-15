@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import RunApp from "./component/Day4/OnMap"
+import AppCat from "./component/Day5/CallCat"
+import Load from "./component/Day6/ReactRouter"
+import Test from "./component/Day6/FormvsHook"
+import FormHook from "./component/Day6/FormvsHook"
+import Hello from "./component/Day6/FormvsHook"
+import Hic from "./component/Day7/OnLaiForm"
+import CallAll from "./component/Day8/CallCats"
+import Main from "./component/Day8/Form"
+import Menus from "./component/Day8/Main"
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Menus />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
