@@ -8,10 +8,11 @@ import Hic from "./component/Day7/OnLaiForm"
 import CallAll from "./component/Day8/CallCats"
 import Main from "./component/Day8/Form"
 import Menus from "./component/Day8/Main"
+import CallForm from "./component/Day7/OnUsestate"
 const App = () => {
   return (
     <div>
-      <Menus />
+      <CallForm />
     </div>
   )
 }
